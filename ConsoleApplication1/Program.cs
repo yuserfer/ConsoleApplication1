@@ -61,7 +61,7 @@ namespace ConsoleApplication1
             Console.WriteLine("--------------------");
 
             //Sort eventList by action Add, Update, Delete - Do Not see comments:
-            /*
+
             //Your code start:
             var orderMap = new Dictionary<Action, int>()
                         {
@@ -72,7 +72,6 @@ namespace ConsoleApplication1
 
             eventList = eventList.OrderBy(m => orderMap[m.action]).ToList<Event>();
             //Your code end.
-            */
 
             foreach (Event event1 in eventList)
             {

@@ -22,7 +22,7 @@ namespace ConsoleApplication1
         public void ChangeData(List<Data> dataList)
         {
             //Write the code to update dataList array - Do Not see comments:
-            /*
+            
             //Your code start:            
             switch (action)
             {
@@ -41,7 +41,6 @@ namespace ConsoleApplication1
                     break;
             }
             //Your code start:
-            */
         }
     }
 

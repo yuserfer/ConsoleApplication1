@@ -27,6 +27,7 @@ namespace ConsoleApplication1
             switch (action)
             {
                 case Action.Add:
+                    //data.Id =dataList.Select(x=>x.Id).Max()+1;
                     data.Id = RefId;
                     dataList.Add(data);
                     break;
